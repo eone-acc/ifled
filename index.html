@@ -7,21 +7,24 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/script.js" defer></script>
 </head>
-<body>
-  <main class="main">
-    <div class="wrapper">
+<body> 
+  <div class="wrapper">
+  <main class="main" >
+    <div class="container " >
+    <div class="main__wrapp ">
       <nav class="nav">
         <a href="#" class="logo">
           <img src="img/logo.png" alt="">           
         </a>
-        <ul class="navbar">
-          <li class="navbar__item">Главная</li>
-          <li class="navbar__item">Продукция</li>
-          <li class="navbar__item">О нас</li>
-          <li class="navbar__item">Контакты</li>
-          <li class="navbar__item">info@ifled.ru</li>
-          <li class="navbar__item">+7 (812) 998 - 99 -73</li>
+        <ul class="navbar" >
+          <li class="navbar__item link"><a href="#">Главная</a> </li>
+          <li class="navbar__item link"><a href="#product">Продукция</a></li>
+          <li class="navbar__item link"><a href="#gallery">О нас</a></li>
+          <li class="navbar__item link"><a href="#contacts">Контакты</a></li>
+          <li class="navbar__item link"><a href="#popup" class="popup-link">info@ifled.ru</a></li>
+          <li class="navbar__item link">+7 (812) 998 - 99 -73</li>
         </ul>
       </nav>
       <div class="main-block">
@@ -35,17 +38,16 @@
           <p class="main-block__text">
             Светоотдача 170лм/Вт
           </p>
-           <p class="main-block__text">
+          <p class="main-block__text">
             Гарантия 7 лет
           </p>
         </div>
-        <div class="main-block__image">
-          <img src="img/lamp1.png" alt="" class="lamp1">
-          <img src="img/lamp2.png" alt="" class="lamp2">
+        <div class="main-block__image ">
+          <img src="img/lamp.png" alt="" class="lamp1">
         </div>
       </div>
       <div class="gonext-block">
-        <a href="#"class="gonext-block__btn">
+        <a href="#product" class="gonext-block__btn">
           <span></span>
           <span></span>
           <span></span>
@@ -54,7 +56,281 @@
         </a>
       </div>
     </div>
+  </div>
   </main>
-  
+
+  <section class="product" id="product" >
+    <div class="container ">
+      <div class="section-title">
+        <h2>Продукция</h2>
+      </div>
+      <div class="tabs">
+          <nav class="tabs__items">
+          <a href="#" class="tabs__item active" id="tab_01_trigger">
+            <div class="tabs__header">
+              <h2 class="tabs__title">Серия GT</h2>
+              <h4 class="tabs__subtitle">High Perfomance LED</h4>
+              <p class="tabs__text">Гарантия 7 лет</p>
+              <p class="tabs__text">Светоотдача 170 Лм/Вт</p>
+            </div>
+          </a>
+          <a href="#" class="tabs__item" id="tab_02_trigger">
+            <div class="tabs__header">
+              <h2 class="tabs__title">Серия MX</h2>
+              <h4 class="tabs__subtitle">Normal Perfomance LED</h4>
+              <p class="tabs__text">Гарантия 5 лет</p>
+              <p class="tabs__text">Светоотдача 150 Лм/Вт</p>
+            </div>
+          </a>
+        </nav>
+        <div class="tabs__body">
+          <div id="tab_01" class="tabs__block active">
+            <a class="block-item popup-link" href="#popup">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </a>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор GT-8x3</h4>
+              <p class="block-item__param">120 000 лм. 708 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+          </div>
+          <div id="tab_02" class="tabs__block">
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+            <div class="block-item">
+              <img class="block-item__image" src="img/tabItem2.png" alt="item">
+              <h4 class="block-item__title">Светодиодный прожектор MX-8x3</h4>
+              <p class="block-item__param">108 000 лм. 720 Вт</p>
+              <button class="block-item__btn">Подробнее</button>
+            </div>
+          </div>          
+        </div>
+          
+      </div>
+
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery" >
+    <div class="container">
+      <div class="section-title">
+        <h2>Галерея</h2>
+      </div>
+      <div class="gallery__box">
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        <div class="gallery__item">
+          <img src="img/tabItem.png" alt="item" >
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contacts" id="contacts" >
+    <div class="container">
+      <div class="section-title">
+        <h2>Контакты</h2>
+      </div>
+      <div class="contacts-block">
+          <div class="contacts-block__text">
+            <p>Производство светодиодных прожекторов
+              "ИНФИНИТ"</p>
+              
+              <p> info@ifled.ru</p>
+              
+              <p></p>+7 (812) 988-99-73</p>
+              
+              <p> Санкт-Петербург, Ракитовская, 22</p>
+          </div>
+          <div class="contacts-block__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae9ac7b3dc214a4136398b4e16a34aaeb04489ac12a8da862e1b7ba0a1c775b9e&amp;source=constructor" width="558" height="455" frameborder="0"></iframe>
+          </div>
+      </div>
+    </div>
+  </section>
+</div>
+  <div id="popup" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup">X</a>
+        <div class="popup__info-block">
+          <div class="popup__slider">
+            <img src="img/popupImage.png" alt="popupImage">
+          </div>
+          <div class="popup__item-info">
+            <div class="popup__title">Светодиодный прожектор
+              GT-7x3-x-5000K-CRI70-PS</div>
+              <div class="popup__param"><span>Световой поток:</span>105 000лм</div>
+              <div class="popup__param"><span>Потребляемая мощность: </span>620Вт</div>
+              <div class="popup__param"><span>Назначение:</span>улично-дорожное освещение
+                мачтовое освещение
+                освещение спортивных сооружений
+                архитектурное освещение
+                внутреннее промышленное освещение
+                </div>
+              <div class="popup__param"><span>Размещение:</span>наружное на открытом воздухе
+                в помещении</div>
+              <div class="popup__param"><span>Монтаж:</span>на ровную поверхность</div>
+              <div class="popup__param"><span>Цена: </span>По запросу</div>
+              <a class="send-request-btn popup-link" href="#popup_2" >Отправить запрос</a>
+          </div>
+
+        </div>
+        <div class="popup__docs">
+          <div class="popup__download-item">
+            <div class="popup__icon">
+              <!-- <img src="" alt="icon"> -->
+            </div>
+            <div class="popup__download-item-title">Скачать IES</div>
+          </div>
+          <div class="popup__download-item">
+            <div class="popup__icon">
+              <!-- <img src="" alt="icon"> -->
+            </div>
+            <div class="popup__download-item-title">Скачать паспорт</div>
+          </div>
+          <div class="popup__download-item">
+            <div class="popup__icon">
+              <!-- <img src="" alt="icon"> -->
+            </div>
+            <div class="popup__download-item-title">Скачать сертификат</div>
+          </div>
+        </div>
+        <div class="popup__tech-params">
+          <h2>Технические характеристики</h2>
+          <div class="popup__tech-param">
+            <p>Параметр</p> <p>Значение</p>
+          </div>
+          <div class="popup__tech-param">
+            <p>Наименование</p> <p>GT-7x3-x-5000K-CRI70-PS</p>
+          </div>
+          <div class="popup__tech-param">
+            <p>Световой поток*</p> <p>105 000лм</p>
+          </div>
+          <div class="popup__tech-param">
+            <p>Мощность*</p> <p>620Вт</p>
+          </div>
+          <div class="popup__tech-param">
+            <p>Гарантия	</p> <p>7лет</p>
+          </div>
+          <div class="popup__tech-param">
+            <p>Светоотдача*	</p> <p>170лм/Вт</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup_2" class="popup popup-email-send">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup">X</a>
+        <img src="img/noroot.webp" style="width: 150px; height: auto;" alt="">
+        <div class="popup__title popup-title-form">Отправить запрос</div>
+         <form action="#" class="popup-form">
+           <input type="text" class="popup-form__input" name="email" placeholder="E-mail">
+           <input type="text" class="popup-form__input" name="username" placeholder="Как вас зовут?">
+           <input type="text" class="popup-form__input" name="phone" placeholder="Телефон для связи">
+           <input type="text" class="popup-form__input" name="message" placeholder="Ваш коментарий">
+           <button class="popup-form-sendbtn" type="submit">Отправить</button>
+         </form> 
+        </div>
+    </div>
+  </div>
 </body>
 </html>
