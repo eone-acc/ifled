@@ -1,0 +1,25 @@
+@import 'normalize';
+@import 'fonts';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+// html {
+//   scroll-behavior: smooth;
+// }
+
+body.lock {
+  overflow: hidden;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@import '_main';
+@import '_product';
+@import '_popups';
